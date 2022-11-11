@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+
+
+
+
+.container{
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    height: 400px;
+    background-color: black;
+}
+
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid firebrick;
+    border-left: 3px fuchsia;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: aqua;
+}
+
+#displayAnswer{
+    width: 400px;
+    height:100px;
+    background-color: burlywood;
+    color: red;
+    text-align: right;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+
+
+.button{
+     cursor: pointer;
+     font-size: 24px;
+     text-align: center;
+     height: 50px;
+     border: 0.5px solid floralwhite;
+}
+
+
+#equals{
+    background-color: chartreuse;
+}
+
+
+#equals:hover{
+    background-color: blue;
+    color: blanchedalmond;
+    transition: 1s ease-in-out;
+}
